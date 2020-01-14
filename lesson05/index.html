@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson 5 - Bank Application</title>
+      <style>
+        body {background-color: #b3d9ff; margin: 5% 0 0 5%;
+          max-width: 80%; font-family: monospace; line-height: 1.3rem; color: #002266;}
+        h1 {color: #002266;}
+        label {font-size: 1.2em;}
+        button {display: block; color: #e6eeff; background-color: #002266;
+          border: none; padding: 0.7rem; width: 20%; margin-top: 3rem;}
+      </style>
+  </head>
+
+  <body>
+    <h1>Choose Your Transaction</h1>
+
+    <form>
+      <label>At the prompt, please enter
+        <strong>w</strong> for withdrawal,
+        <strong>d</strong> for deposit,
+        <strong>b</strong> to view balance or
+        <strong>q</strong> to quit your transaction.
+        <button onclick="userOption()">BEGIN TRANSACTION</button>
+      </label>
+    </form>
+
+    <script src="./banking.js" charset="utf-8"></script>
+  </body>
+</html>
